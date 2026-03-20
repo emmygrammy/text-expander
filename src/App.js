@@ -16,7 +16,11 @@ function App() {
       </div>
 
       <div>
-        <TextExpander>
+        <TextExpander
+        collapsedNumWords={20}
+        buttonColor="red"
+        collapsedButtonText="Show text"
+        >
           Space travel requires some seriously amazing technology and
         collaboration between countries, private companies, and international
         space organizations. And while it's not always easy (or cheap), the
