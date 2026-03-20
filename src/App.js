@@ -4,8 +4,8 @@ import TextExpander from './component/Text_expander';
 
 function App() {
   return (
-    <div className="App">
-      <div>
+    <div className="app-container">
+      <div className="card">
         <TextExpander>
           Space travel is the ultimate adventure! Imagine soaring past the stars
         and exploring new worlds. It's the stuff of dreams and science fiction,
@@ -15,9 +15,9 @@ function App() {
         </TextExpander>
       </div>
 
-      <div>
+      <div className="card">
         <TextExpander
-        collapsedNumWords={20}
+        collapsedNumWords={5}
         buttonColor="red"
         collapsedButtonText="Show text"
         >
@@ -29,7 +29,7 @@ function App() {
         </TextExpander>
       </div>
 
-      <div>
+      <div className="card">
         <TextExpander>
           Space missions have given us incredible insights into our universe and
         have inspired future generations to keep reaching for the stars. Space
